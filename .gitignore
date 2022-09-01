@@ -1,0 +1,9 @@
+# Let the git ignore all the tmp file produced by the emacs itself.
+# Ref:https://simpleit.rocks/git/make-git-ignore-temporary-files-produced-by-emacs-and-vim-in-all-directories-globally/
+lisp/*~
+lisp/\#*\#
+\#*\#
+*~
+auto-save-list/
+elpa/
+eshell/
